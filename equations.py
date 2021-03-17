@@ -34,7 +34,7 @@ def odds (x:float):
     else:
         return False
     
-def ln(x:float):
+def Ln(x:float):
     if x<=0:
         return 0.0
     answer =x-1.0
@@ -52,7 +52,7 @@ def XtimesY (x:float,y:float):
     elif y==1:
         return float(x)
     else:
-        answer =exponent(y*ln(x))
+        answer =exponent(y*Ln(x))
         return answer
 
 def sqrt (x:float,y:float):
